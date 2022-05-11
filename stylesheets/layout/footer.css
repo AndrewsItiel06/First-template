@@ -1,0 +1,32 @@
+footer{
+    padding-block: 6rem;
+    
+    background-color: var(--brandGreen);
+
+    text-align: left;
+}
+
+footer .logo{
+    display: inline-block;
+    margin-bottom: 2.4rem;
+}
+
+footer .logo path{
+    width: 23.6rem;
+    height: 3.1rem;
+}
+
+footer .logo path{
+    fill: white;
+}
+
+footer p{
+    color: var(--brandBeige);
+    line-height: 2;
+
+    margin-bottom: 3.2rem;
+}
+
+footer .social-links{
+    justify-content: flex-start;
+}

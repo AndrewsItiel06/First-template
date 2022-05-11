@@ -1,0 +1,23 @@
+/*===base===*/
+@import './base/reset.css';
+@import './base/typography.css';
+@import './base/variables.css';
+@import 'base/custom.css';
+@import 'base/media.css';
+
+/*===layout===*/
+@import 'layout/global.css';
+@import './layout/header.css';
+@import './layout/navigation.css';
+@import './layout/menu.css';
+@import 'layout/services.css';
+@import 'layout/about.css';
+@import 'layout/contact.css';
+@import 'layout/footer.css';
+
+
+/*===components===*/
+@import './components/buttons.css';
+@import './components/stats.css';
+@import './components/cards.css';
+@import './components/toTheTopButton.css';

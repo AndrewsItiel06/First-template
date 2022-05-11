@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'DM Sans';
+    font-size: 1.6rem;
+}
+
+/*===HEADER TYPOGRAPHY===*/
+#home p{
+    font-size: 1.8rem;
+}
+
+#home h3{
+    color: var(--grayHeadline);
+    font-size: 1.6rem;
+}

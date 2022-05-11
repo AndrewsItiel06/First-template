@@ -1,0 +1,13 @@
+#services header h4{
+    font-size: 1.4rem;
+    line-height: 150%;
+    letter-spacing: 0.08rem;
+
+    color: var(--brandGreen);
+
+    margin-bottom: 1.6rem;
+}
+
+#services h2{
+    margin-bottom: 6rem;
+}

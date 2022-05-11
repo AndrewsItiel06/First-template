@@ -1,0 +1,31 @@
+/*===BACKGROUND===*/
+body::before{
+    content: "";
+    background-color: var(--background);
+    
+    width: 100%;
+    height: calc(108rem + var(--navHeight));
+    
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    z-index: -1;
+}
+
+/*===HEADER'S LAYOUT===*/
+#home{
+    padding-block: 0;
+    padding-top: calc(4.1rem + var(--navHeight));
+}
+
+#home p{
+    margin-block: 0rem 3.2rem;
+}
+
+#home img.cardImage{
+    width: 26.4rem;
+    display: block;
+    margin-inline: auto;
+}

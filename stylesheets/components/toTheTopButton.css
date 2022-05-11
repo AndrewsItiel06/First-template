@@ -1,0 +1,15 @@
+.toTheTopButton{
+    position: fixed;
+    bottom: 1.5rem;
+    right: 3.5rem;
+
+    visibility: hidden;
+
+    transition: 300ms;
+    transform: translateY(100%);
+}
+
+body a.show{
+    transform: translateY(0);
+    visibility: visible;
+}

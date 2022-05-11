@@ -1,0 +1,27 @@
+#home div.stats{
+    width: 100%;
+    padding-block: 4.4rem 4.4rem;
+    margin-block: 0rem 9.9rem;
+    
+    background-color: var(--brandBeige);
+
+    border: 1px solid var(--brandGreenLight);
+    border-radius: 0.6rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+#home .stats div{
+    margin-inline: auto;
+}
+
+#home .stats div h3{
+    font-size: 4.8rem;
+}
+
+#home .stats div p{
+    color: var(--brandGreen);
+    margin: 0;
+}

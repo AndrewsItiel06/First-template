@@ -1,0 +1,79 @@
+:root{
+    font-size: 62.5%;
+}
+
+.wrapper{
+    width: min(50rem, 100%);
+    margin-inline: auto;
+    padding-inline: 2.4rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    text-align: center;
+    overflow: overlay;
+    background: var(--brandGreenLight2);
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+.social-links{
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+section {
+    padding-block: 10rem;
+}
+
+section h4{
+    color: var(--brandGreen);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-block: 0rem 1.6rem;
+}
+
+section h1{
+    margin-block: 2rem;
+    
+    color: var(--grayHeadline);
+    
+    font-size: 3.4rem;
+    line-height: 130%;
+}
+
+section h2{
+    font-size: 3rem;
+    line-height: 3.9rem;
+
+    color: var(--grayHeadline);
+
+    margin-bottom: 6rem;
+}
+
+section .content p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    
+    color: var(--grayParagraph);
+    
+    line-height: 150%;
+}
