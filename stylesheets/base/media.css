@@ -25,6 +25,11 @@
         line-height: 5.2rem;
     }
 
+    a.toTheTopButton{
+        position: fixed;
+        bottom: 1.5rem;
+        right: 3.5rem;}
+
     /*=== RESET===*/
     nav#navigation .menu,
     nav#navigation .wrapper *{
