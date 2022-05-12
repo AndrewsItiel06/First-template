@@ -72,7 +72,7 @@ function closeMenu(){
 
 /*===SCROLL REVEAL===*/
 ScrollReveal({
-        origin: 'right',
+        origin: 'bottom',
         distance: '30px',
         duration: 700,  
 }).reveal(`
