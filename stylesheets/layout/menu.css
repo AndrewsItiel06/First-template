@@ -21,7 +21,9 @@ body.menu-expanded .open-menu{
     position: absolute;
 }
 
-body.menu-expanded .close-menu{position: relative;}
+body.menu-expanded .close-menu{
+    position: relative;
+}
 
 body.menu-expanded .menu,
 body.menu-expanded .close-menu{
@@ -31,15 +33,13 @@ body.menu-expanded .close-menu{
 
 body.menu-expanded .logo,
 body.menu-expanded .close-menu{
-    display: flex;
+    display: block;
     z-index: 100;
 }
 
-body.menu-expanded .logo path{
-    fill: white;
-}
-
+body.menu-expanded .logo path,
 body.menu-expanded .close-menu path{
+    fill: white;
     stroke: white;
 }
 .menu{
