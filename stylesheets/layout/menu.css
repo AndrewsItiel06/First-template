@@ -37,9 +37,11 @@ body.menu-expanded .close-menu{
     z-index: 100;
 }
 
-body.menu-expanded .logo path,
-body.menu-expanded .close-menu path{
+body.menu-expanded .logo path{
     fill: white;
+}
+
+body.menu-expanded .close-menu path{
     stroke: white;
 }
 .menu{
