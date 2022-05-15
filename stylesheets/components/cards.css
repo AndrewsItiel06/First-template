@@ -1,10 +1,4 @@
-#services .cards{
-    display: flex;
-    flex-direction: column;
-    gap: 3.2rem;
-}
-
-#services .card{
+.card{
     padding: 2.4rem;
 
     background: white;
@@ -13,6 +7,13 @@
     border-radius: 0.6rem;
     text-align: left;
 }
+
+#services .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
 
 #services .card h3{
     margin-block: 1.6rem;

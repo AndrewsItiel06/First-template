@@ -7,6 +7,8 @@
 
     transition: 300ms;
     transform: translateY(100%);
+
+    z-index: 450;
 }
 
 body a.show{

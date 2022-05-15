@@ -225,7 +225,7 @@
     #about .wrapper{
         display: grid;
         grid-template-columns: 40rem 1fr;
-        grid-template-areas: "B A";
+        grid-template-areas: "A B";
 
         gap: 6.7rem;
     }
@@ -239,6 +239,35 @@
         margin-bottom: 0;
     }
     
+    /*===TESTIMUNIALS===*/
+    #testimunials .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "B A";
+
+        gap: 6.7rem;
+    }
+
+    #testimunials h2{
+        margin-bottom: 0;
+    }
+
+
+    #testimunials .swiper{
+        width: min(50rem, 50vw);
+    }
+
+    #testimunials .swiper-pagination{
+        position: relative;
+        top: 3rem;
+        left: 1rem;
+    }
+
+    #testimunials .colun-a{
+        text-align: left;
+        align-self: center;
+    }
+
     /*===CONTACT===*/
     #contact .wrapper{
         display: grid;

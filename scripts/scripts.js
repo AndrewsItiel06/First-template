@@ -11,6 +11,7 @@ function onScroll(){
         activateMenuAtCurrentSection(home)
         activateMenuAtCurrentSection(services)
         activateMenuAtCurrentSection(about)
+        activateMenuAtCurrentSection(testimunials)
         activateMenuAtCurrentSection(contact)
 }
 
@@ -86,8 +87,32 @@ ScrollReveal({
         #about header,
         #about .content p,
         #about .content img,
+        #testimunials,
+        #testimunials header,
+        #testimunials .swiper,
+        #testimunials .swiper-pagination,
         #contact header,
         #contact ul,
         #contact a,
         #contact p,
         #contact img`);
+
+/*===SWIPER===*/
+
+const swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        loop: true,
+
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        mousewheel:{ 
+                enabled: true,
+        },
+        
+        keyboard:{ 
+                enabled: true,
+        },
+
+})
