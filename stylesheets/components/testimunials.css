@@ -23,7 +23,7 @@
   height: 3rem;
   object-fit: cover;
   clip-path: circle();
-  margin-right: 0.5rem;
+  margin-inline: 0.2rem 0.5rem;
 }
 
 .testimunial blockquote span{
