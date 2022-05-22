@@ -7,7 +7,7 @@
     border-radius: 0.6rem;
     text-align: left;
 
-    box-shadow: var(--background) 0.5px 0.5px 5px;
+    box-shadow: var(--background) 0px 0px 5px;
 }
 
 #services .cards{
