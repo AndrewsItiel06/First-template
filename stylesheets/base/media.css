@@ -1,7 +1,7 @@
 @media (max-height: 700px){
      body.menu-expanded .menu .reduced-height{
          overflow-y: scroll;
-         max-height: 75vh;
+         max-height: 70vh;
      }
 }
 
