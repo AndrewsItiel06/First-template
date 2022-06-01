@@ -17,7 +17,7 @@ nav div.wrapper{
 }
 
 nav.scroll{
-    background: var(--brandGreen);
+    background: var(--brand);
 }
 
 nav.scroll .logo path{

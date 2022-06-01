@@ -29,16 +29,16 @@
 .testimunial blockquote span{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 4.8rem;
-  color: var(--brandGreen);
+  color: var(--brand);
   position: absolute;
   top: 5rem;
   left: 3.1rem;
 }
 
 .swiper-pagination-bullet{
-  background-color: var(--brandGreenHover);
+  background-color: var(--brandHover);
 }
 
 .swiper-pagination-bullet-active{
-  background-color: var(--brandGreen);
+  background-color: var(--brand);
 }

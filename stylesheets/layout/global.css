@@ -73,7 +73,7 @@ section .content p{
     font-size: 1.6rem;
     font-weight: 400;
     
-    color: var(--grayParagraph);
+    color: var(--Paragraph);
     
     line-height: 150%;
 }

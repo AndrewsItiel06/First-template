@@ -1,13 +1,13 @@
 body a.toTheTopButton circle,
 nav .logo path[fill*="#00856F"]{
-    fill: var(--brandGreen);
+    fill: var(--brand);
 }
 
 #services .card circle{
-    fill: var(--brandGreenLight);
+    fill: var(--brandLight);
 }
 
 #contact li path,
 nav .open-menu path{
-    stroke: var(--brandGreen);
+    stroke: var(--brand);
 }

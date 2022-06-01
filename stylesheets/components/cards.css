@@ -3,7 +3,7 @@
 
     background: white;
 
-    border: 1px solid var(--brandGreenLight);
+    border: 1px solid var(--brandLight);
     border-radius: 0.6rem;
     text-align: left;
 
@@ -22,5 +22,5 @@
 }
 
 #services .card p{
-    color: var(--grayParagraph);
+    color: var(--Paragraph);
 }

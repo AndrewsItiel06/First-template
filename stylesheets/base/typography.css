@@ -11,6 +11,6 @@ body{
 }
 
 #home h3{
-    color: var(--grayHeadline);
+    color: var(--Headline);
     font-size: 1.6rem;
 }

@@ -15,3 +15,7 @@ body a.show{
     transform: translateY(0);
     visibility: visible;
 }
+
+body.menu-expanded .toTheTopButton{
+    transform: translateY(100%);
+}
