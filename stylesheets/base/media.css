@@ -1,3 +1,10 @@
+@media (max-height: 700px){
+     body.menu-expanded .menu .reduced-height{
+         overflow-y: scroll;
+         max-height: 80vh;
+     }
+}
+
 @media (min-width: 1024px){
     /*=== GERAL===*/
     body{
@@ -54,12 +61,15 @@
     }
 
     nav#navigation .menu{
-        display: flex;
-        align-items:  center;
-        justify-content: space-between;
         width: 65%;
     }
 
+    nav#navigation .menu .reduced-height{
+        display: flex;
+        align-items:  center;
+        justify-content: space-between;
+        width: 100%;
+    }
 
     nav#navigation .menu ul:nth-child(1){
         display: flex;
