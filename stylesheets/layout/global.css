@@ -21,7 +21,7 @@ body{
 body{
     text-align: center;
     overflow: overlay;
-    background: var(--brandGreenLight2);
+    background: var(--brandLight2);
     overflow-x: hidden;
 }
 
@@ -45,7 +45,7 @@ section {
 }
 
 section h4{
-    color: var(--brandGreen);
+    color: var(--brand);
     font-size: 1.4rem;
     text-transform: uppercase;
     margin-block: 0rem 1.6rem;
