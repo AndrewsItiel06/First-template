@@ -2,6 +2,10 @@
 
 A responsive Landingpage for a fictional company called DoctorCare, applying *Mobile First*, *Flexbox*, *Grid Layout* and other concepts.
 
+## Features 
+- [ScrollReveal](https://scrollrevealjs.org/)
+- [SwiperJS](https://swiperjs.com/)
+
 ## Techs
 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
